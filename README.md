@@ -22,7 +22,7 @@ pod 'MMDrawerController', '~> 0.5.7'
 ```
 ### Carthage
 
-1. Add MBProgressHUD to your Cartfile:
+1. Add MMDrawerController to your Cartfile:
 
    ```Ruby
    github "sfiorini/MMDrawerController" ~> 0.7.0
@@ -33,7 +33,7 @@ pod 'MMDrawerController', '~> 0.5.7'
   carthage update
   ```
 
-3. Follow the rest of the [standard Carthage installation instructions](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) to add MBProgressHUD to your project.
+3. Follow the rest of the [standard Carthage installation instructions](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) to add MMDrawerController to your project.
 
 ---
 ##Creating a Drawer Controller
