@@ -11,13 +11,26 @@
 Official appledoc documentation can be found at [CocoaDocs](http://cocoadocs.org/docsets/MMDrawerController/).
 
 ---
-##Installing MMDrawerController
+## Adding MBProgressHUD to your project
+
+### CocoaPods
 <img src="https://cocoapod-badges.herokuapp.com/v/MMDrawerController/badge.png"/><br/>
 You can install MMDrawerController in your project by using [CocoaPods](https://github.com/cocoapods/cocoapods):
 
 ```Ruby
 pod 'MMDrawerController', '~> 0.5.7'
 ```
+### Carthage
+
+1. Add MBProgressHUD to your Cartfile:
+   ```Vi
+   `github "sfiorini/MMDrawerController" ~> 0.7.0`
+   ```
+2. Update Carthage:
+   ```Ruby
+   `carthage update`
+   ```
+3. Follow the rest of the [standard Carthage installation instructions](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) to add MBProgressHUD to your project.
 
 ---
 ##Creating a Drawer Controller
